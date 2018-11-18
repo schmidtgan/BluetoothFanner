@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--按钮的样式-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--点击时的背景-->
+    <item android:state_pressed="true">
+        <shape>
+            <!--色值-->
+            <solid android:color="#FEDCBA" />
+            <!--圆角-->
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+    <!--默认背景-->
+    <item>
+        <shape>
+            <!--色值-->
+            <solid android:color="#ABCDEF" />
+            <!--圆角-->
+            <!--<corners android:radius="10dp" />-->
+        </shape>
+    </item>
+
+</selector>
